@@ -17,6 +17,12 @@ if operation == "1" : result = addition
 if operation == "2" : result = subtraction
 if operation == "3" : result = multiplication
 if operation == "4" : result = devision
+else : print("choose from 1 to 4")
+operation = input()
+if operation == "1" : result = addition 
+if operation == "2" : result = subtraction
+if operation == "3" : result = multiplication
+if operation == "4" : result = devision
 print("Your result is ")
 print(result)
   
