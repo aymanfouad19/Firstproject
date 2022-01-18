@@ -13,16 +13,16 @@ print("2""-subtraction(-)")
 print("3""-multiplication(x)")
 print("4""-devision(/)")
 operation = input()
-if operation == "1" : result = addition
-if operation == "2" : result = subtraction
-if operation == "3" : result = multiplication
-if operation == "4" : result = devision
+elif operation == "1" : result = addition
+elif operation == "2" : result = subtraction
+elif operation == "3" : result = multiplication
+elif operation == "4" : result = devision
 else : print("choose from 1 to 4")
 operation = input()
 if operation == "1" : result = addition 
-if operation == "2" : result = subtraction
-if operation == "3" : result = multiplication
-if operation == "4" : result = devision
+elif operation == "2" : result = subtraction
+elif operation == "3" : result = multiplication
+elif operation == "4" : result = devision
 print("Your result is ")
 print(result)
   
