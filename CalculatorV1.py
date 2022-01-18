@@ -13,7 +13,7 @@ print("2""-subtraction(-)")
 print("3""-multiplication(x)")
 print("4""-devision(/)")
 operation = input()
-elif operation == "1" : result = addition
+if operation == "1" : result = addition
 elif operation == "2" : result = subtraction
 elif operation == "3" : result = multiplication
 elif operation == "4" : result = devision
