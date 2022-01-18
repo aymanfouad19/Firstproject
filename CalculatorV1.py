@@ -1,8 +1,8 @@
 print("*********Calculator***************")
 print("first number")
-line=int(input())
+line=float(input())
 print("second number")
-second_line=int(input())
+second_line=float(input())
 addition= line+second_line
 multiplication=line*second_line
 subtraction = line-second_line
