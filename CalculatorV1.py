@@ -17,8 +17,7 @@ if operation == "1" : result = addition
 elif operation == "2" : result = subtraction
 elif operation == "3" : result = multiplication
 elif operation == "4" : result = devision
-else : print("choose from 1 to 4")
-operation = input()
+else : operation=input("choose a number from 1 to 4 : ")
 if operation == "1" : result = addition 
 elif operation == "2" : result = subtraction
 elif operation == "3" : result = multiplication
