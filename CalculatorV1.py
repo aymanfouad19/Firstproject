@@ -1,7 +1,7 @@
 print("*********Calculator***************")
-print("first number")
+print("Enter your first number :")
 line=float(input())
-print("second number")
+print("Enter your second number :")
 second_line=float(input())
 addition= line+second_line
 multiplication=line*second_line
