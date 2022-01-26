@@ -3,13 +3,13 @@ print("Enter your first number :")
 try :
  print("Enter your first number")
  line= float(input())
-except : 
+except ValueError : 
     print("Please enter a valid number : ")
     line=float(input())
 try :
     print("Enter second number :")
     second_line=float(input())
-except :
+except ValueError :
     print("Please enter a valid number :")
     second_line=float(input())
 addition= line+second_line
