@@ -1,8 +1,17 @@
 print("*********Calculator***************")
 print("Enter your first number :")
-line=float(input())
-print("Enter your second number :")
-second_line=float(input())
+try :
+ print("Enter your first number")
+ line= float(input())
+except : 
+    print("Please enter a valid number : ")
+    line=float(input())
+try :
+    print("Enter second number :")
+    second_line=float(input())
+except :
+    print("Please enter a valid number :")
+    second_line=float(input())
 addition= line+second_line
 multiplication=line*second_line
 subtraction = line-second_line
