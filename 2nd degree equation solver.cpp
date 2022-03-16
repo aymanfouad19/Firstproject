@@ -4,7 +4,7 @@ using namespace std ;
 int main()
  {
      float a ; float b; float c;float delta;float x1;float x2;
-   cout << "ax²+bx+c Equation solver :" << endl;
+   cout << "ax²+bx+c=0 Equation solver :" << endl;
   cout << "please enter a"<<endl;
   cin >>a;
   cout << "please enter b"<<endl;
