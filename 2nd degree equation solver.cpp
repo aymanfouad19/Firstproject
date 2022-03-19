@@ -23,7 +23,7 @@ int main()
   else {
       x1=(-b-sqrt(delta))/(2*a);
       x2=(-b+sqrt(delta))/(2*a);
-      cout <<"There is two solutions to this equaton x1="<<x1 <<" x2="<<x2;
+      cout <<"There is two solutions to this equation x1="<<x1 <<" x2="<<x2;
   }
   return 0;
  }
